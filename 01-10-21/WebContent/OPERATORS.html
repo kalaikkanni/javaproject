@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>THIS IS BITWISE OPE</p>
+<script type="text/javascript">
+
+var a=5;
+var b=6;
+var c=a & b;
+var d=a | b;
+var e=a^b;
+var f=(~a);
+var g=(a<<b);
+var h=(a>>b);
+var i=(a>>>b);
+document.write(c);
+document.write("<br>");
+document.write(d);
+document.write("<br>");
+document.write(e);
+document.write("<br>");
+document.write(f);
+document.write("<br>");
+document.write(g);
+document.write("<br>");
+document.write(h);
+document.write("<br>");
+document.write(i);
+</script>
+<HR>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+<P>COMPARITION OPE</P>
+<script type="text/javascript">
+var a=155;
+var b=100;
+document.write(a==b); 
+document.write("<br>");
+document.write(a===b); 
+document.write("<br>");
+document.write(a!=b);
+document.write("<br>");
+document.write(a!==b);
+document.write("<br>");
+document.write(a>b);
+document.write("<br>");
+document.write(a>=b);
+document.write(a<=b);
+document.write("<br>");
+document.write(a<=b);
+document.write("<br>");
+</script>
+</body>
+</html>
+<HR>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+<P>ARITHMETIC OP</P>
+<script type="text/javascript">
+var a=55;
+var b=10;
+var add= a+b;
+var sub = a-b;
+var division= a/b;
+var modulus=a%b;
+var x = ++a;
+var y= --b;
+document.write(add); 
+document.write("<br>");
+document.write(sub); 
+document.write("<br>");
+document.write(division);
+document.write("<br>");
+document.write(modulus);
+document.write("<br>");
+document.write(x);
+document.write("<br>");
+document.write(y);
+</script>
+</body>
+</html>
+<HR>
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Insert title here</title>
+</head>
+<body>
+<P> THIS IS LOCAL AND WINDOWS VALUE</P>
+<script type="text/javascript">
+function ak() 
+{
+	window. value = 100; // local variable	
+}
+
+function  kk()
+{
+       document.write(window.value);
+}
+
+ak();
+kk();
+</script>
+
+</body>
+</html>
+<hr>
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h2>JavaScript For Of Loop</h2> 
+<p>The for of statement loops through the values of any iterable object:</p> 
+<p id="demo"></p> 
+<script> 
+const cars = [["BMW"], ["Volvo"], ["Mini"]]; 
+let text = ""; 
+for (let x of cars) 
+{ 
+ text += x + "<br>"; 
+} 
+document.getElementById("demo").innerHTML = text; 
+</script> 
+</body> 
+</html> 

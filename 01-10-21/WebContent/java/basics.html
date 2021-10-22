@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+		<title>Java Script Variables</title>
+		
+</head>
+
+<body>
+
+	<script>
+	
+	/* 
+	
+		Write a java script program to calculate sum of two numbers 
+		
+		step1: take three variables, for example a, b and result
+		step2: store some values in a and b variables
+		step3: do the sum with a and b variables(a+b) and store in third variable 'result'.
+		step4: finally print result variable value on the web browser.	
+	
+	*/
+	
+			//input variables
+			var a = 20;
+			var b = 200;
+			
+			//output variables
+			var result = a + b;
+			
+			//calling output variable
+			document.write(result);
+	
+	</script>
+<hr>
+
+
+<head>
+
+		<title>Java Script Variables</title>
+		
+</head>
+
+<body>
+
+	<script>
+
+			var employeeId = 2021; //integer value
+			var employeeName = "Harish Reddy"; //string value
+			var employeeSalary = 78645.78; //float value					
+			
+			
+			document.write("Employee Id: "+employeeId+"<br>");
+			document.write("Employee Name: "+employeeName+"<br>");
+			document.write("Employee Salary: "+employeeSalary);
+	
+	</script>
+
+
+</body>
+
+</html>
+<hr>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+		<title>Java Script Variables</title>
+		
+</head>
+
+<body>
+
+	<script>
+
+			var pass = true;
+			var fail = false;
+			
+			
+			document.write("Pass: "+pass+"<br>");
+			document.write("Fail: "+fail);
+	
+	</script>
+
+</body>
+
+</html>
+<hr>
+l>
+<html>
+
+<head>
+
+		<title>Java Script Variables</title>
+		
+</head>
+
+<body>
+
+	<script>
+
+			/* 
+					Write a JS fprogram to calculate area of circle.
+					
+					step1: take three variables, for example radius, PI_VALUE and area
+					step2: store some values in radius and PI_VALUE variables
+					step3: calculate the area and store in third variable 'area'.
+					step4: finally print 'area' variable value on the web browser.	
+					
+			*/
+			
+			var radius = 3.0;
+			const PI_VALUE = 3.142;
+			
+			/* PI_VALUE = 4.0; */
+			
+			var area = PI_VALUE*radius*radius;
+			
+			document.write("Area of Circle: "+area);
+	
+	</script>
+
+</body>
+
+</html>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Example1 in JS</title>
+</head>
+
+<body>
+
+		<button type = "button" id= "x3">Sub</button>
+
+		<script>
+		
+				//Global variables: the variables which are declared outside the function
+				var a = 300;
+				var b = 50;
+				
+				/* function calSum()
+				{
+					
+					//Local variables: the variables which are declared inside the function
+					var c = 0;
+					c = a + b;
+					alert(c);
+				}
+				
+				document.getElementById("x2").onclick=calSum; */
+				
+				function calSub()
+				{
+					
+					//Local variables: the variables which are declared inside the function
+					var d = 0;
+					d = a - b;
+					alert(d);
+				}
+				
+				document.getElementById("x3").onclick=calSub;
+				
+				/* multi line comments */
+				
+				/**
+						doc type
+				*/
+				
+		</script>
+
+</body>
+
+</html>
